@@ -1,0 +1,62 @@
+
+.user-container {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.user-container span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+
+.user-container input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  margin-right: 15px;
+}
+
+
+.user-container button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.user-container button:hover {
+  background-color: #e0e0e0;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.user-table thead {
+  background-color: #f4f4f4;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  font-weight: bold;
+  color: #333;
+}
+

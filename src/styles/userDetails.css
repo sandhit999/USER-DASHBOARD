@@ -1,0 +1,33 @@
+
+.user-details {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+
+.user-details h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+.user-details h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+
+.user-details p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+

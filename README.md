@@ -1,17 +1,56 @@
-# React + Vite
+ User  Dashboard Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Project Overview
 
-Currently, two official plugins are available:
+This is a simple React app that shows a list of users from an API.
+You can search, sort, and view full details of each user.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Features
 
-## Expanding the ESLint configuration
+   Show users in a table (Name, Email, Phone, Company)
+   Search users by name or email
+   Sort users (ascending / descending)
+   Click a user → view full details page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# USER-DASHBOARD
+
+ API Used
+
+https://jsonplaceholder.typicode.com/users
+
+
+ Setup & Run
+
+1. Clone the repository
+
+
+git clone https://github.com/sandhit999/USER-DASHBOARD
+
+
+2. Go to project folder
+
+cd user-dashboard
+
+3. Install dependencies
+
+npm install
+
+4. Start the app
+
+npm run dev
+
+ Notes
+
+Data is fetched from a public API
+Search and sorting are done on the frontend
+Routing is used for navigation between pages
+
+
+
+Tech Used
+
+ React
+ React Router
+ JavaScript (ES6)
+ CSS

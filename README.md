@@ -1,13 +1,13 @@
- User  Dashboard Assignment
+# User  Dashboard Assignment #
 
- Project Overview
+## Project Overview
 
 This is a simple React app that shows a list of users from an API.
 You can search, sort, and view full details of each user.
 
 
 
- Features
+## Features
 
    Show users in a table (Name, Email, Phone, Company)
    Search users by name or email
@@ -15,12 +15,12 @@ You can search, sort, and view full details of each user.
    Click a user → view full details page
 
 
- API Used
+## API Used
 
 https://jsonplaceholder.typicode.com/users
 
 
- Setup & Run
+## Setup & Run
 
 1. Clone the repository
 
@@ -40,7 +40,7 @@ npm install
 
 npm run dev
 
- Notes
+## Notes
 
 Data is fetched from a public API
 Search and sorting are done on the frontend
